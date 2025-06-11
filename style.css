@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body {
+  background-image: url('17973908.jpg');
+  background-repeat: no-repeat;
+   background-size: auto;
+  background-position: center center;
+}
+#main{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  background-color: black;
+  margin-bottom: 0;
+   flex-wrap: wrap;
+   padding: 1%;
+   padding-left: 50px;
+}
+
+h2 {
+    display : inline-block;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+
+    
+ }
+  #bar {
+    display : flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+     gap: 70px;
+    margin-top: 0px;
+    padding-right : 20px;
+  }
+
+#intro {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+   
+}
+a{
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    margin : 0px;
+}
+#home{
+   box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+      justify-content: space-between;
+ 
+}
+
+ img {
+     width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top : 8%;
+    margin-right : 15%;
+}
+button{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#input{
+   border-radius: 20px;
+  width: 150px;
+  height: 40px;
+ border-color: blueviolet;
+  text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  #main, #bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+  }
+#parent{
+  flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+  img {
+    width: 180px;
+    height: 220px;
+    margin: 20px auto;
+  }
+
+  #intro {
+    margin: 20px;
+    text-align: center;
+  }
+
+  #bar {
+    gap: 20px;
+    margin-top: 10px;
+  }
+}
