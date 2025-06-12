@@ -41,11 +41,11 @@ h2 {
 
 #intro {
     display: inline-block;
-    margin-left: 10%;
-    margin-top: 15%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-   
+    margin-left: 9%;
+    margin-top: 12%;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
 }
 a{
     font-weight: bold;
@@ -82,6 +82,7 @@ hr{
     margin-left: auto;
     margin-top : 8%;
     margin-right : 15%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 button{
   background-color: blueviolet;
