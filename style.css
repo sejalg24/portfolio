@@ -8,7 +8,7 @@ body {
   background-image: url('17973908.jpg');
   background-repeat: no-repeat;
    background-size: auto;
-  background-position: center center;
+  background-position: center;
 }
 #main{
     display: flex;
@@ -81,7 +81,7 @@ hr{
     border-radius: 50%;
     margin-left: auto;
     margin-top : 8%;
-    margin-right : 15%;
+    margin-right : 13%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 button{
